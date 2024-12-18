@@ -27,4 +27,4 @@ if A == False:
 if st.sidebar.toggle("toggle"):
   st.sidebar.write("On")
 else:
-  st.sidebar.wwrite("Off") 
+  st.sidebar.write("Off") 
