@@ -19,3 +19,5 @@ if st.sidebar.checkbox("Checkbox",value="True"):
   st.sidebar.write("you have checked the box")
 if st.sidebar.toggle("Toggle"):
   st.sidebar.write("on")
+else:
+  st.write("off")
