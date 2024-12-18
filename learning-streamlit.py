@@ -33,6 +33,8 @@ else:
 A=st.text_input("Write your name") 
 if A:
   st.write(f"hello {A}")
-st.number_input("Write the value of radius")
+R=st.number_input("Write the value of radius")
+if R:
+  st.write(R+1)
 
 
