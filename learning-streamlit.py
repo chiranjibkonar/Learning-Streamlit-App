@@ -13,3 +13,6 @@ st.warning("warning")
 st.info("Info") 
 st.success("success")
 #st.exception("TypeError")  not clear
+st.button("Press")
+st.checkbox("Checkbox")
+st.toggle("Toggle") 
