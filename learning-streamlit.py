@@ -15,7 +15,7 @@ st.success("success")
 #st.exception("TypeError")  not clear
 if st.sidebar.button("Press button"): 
   st.sidebar.write("you have pressed the button")
-if st.sidebar.checkbox("Checkbox",vale="True"):
+if st.sidebar.checkbox("Checkbox",value="True"):
   st.sidebar.write("you have checked the box")
 if st.sidebar.toggle("Toggle"):
   st.sidebar.write("on")
