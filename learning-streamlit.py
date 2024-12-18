@@ -12,4 +12,4 @@ st.error("Error")
 st.warning("warning") 
 st.info("Info") 
 st.success("success")
-st.exception("TypeError")  
+#st.exception("TypeError")  not clear
