@@ -2,3 +2,4 @@
 # To make a web app for a calculator 
 import streamlit as st  
 st.write("hello")  
+st.sidebar.write("Hello") 
