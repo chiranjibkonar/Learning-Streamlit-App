@@ -30,7 +30,9 @@ if st.sidebar.toggle("toggle"):
   st.sidebar.write("On")
 else:
   st.sidebar.write("Off") 
-st.text_input("Write your name") 
+A=st.text_input("Write your name") 
+if A:
+  st.write(f"hello {A}")
 st.number_input("Write the value of radius")
 
 
