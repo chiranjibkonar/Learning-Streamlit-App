@@ -17,13 +17,15 @@ if st.sidebar.button("Press button"):
   st.sidebar.write("you have pressed the button")
 if st.sidebar.checkbox("Checkbox",value="True"):
   st.sidebar.write("you have checked the box")
-  #------------------------------------------------
-"""A= st.sidebar.toggle("Toggle")
-if A:
-  st.sidebar.write("on")
-if A == False:
-  st.sidebar.write("off")""" 
+  
+#------------------------------------------------
+#A= st.sidebar.toggle("Toggle")
+#if A:
+#  st.sidebar.write("on")
+#if A == False:
+#  st.sidebar.write("off")
 #-------------------------------------------------
+
 if st.sidebar.toggle("toggle"):
   st.sidebar.write("On")
 else:
