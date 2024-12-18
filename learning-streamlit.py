@@ -13,6 +13,7 @@ st.warning("warning")
 st.info("Info") 
 st.success("success")
 #st.exception("TypeError")  not clear
-st.sidebar.button("Press button")
+if st.sidebar.button("Press button"): 
+  st.sidebar.write("you have pressed the button")
 st.sidebar.checkbox("Checkbox")
 st.sidebar.toggle("Toggle") 
