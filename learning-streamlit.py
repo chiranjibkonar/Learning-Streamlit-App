@@ -3,3 +3,13 @@
 import streamlit as st  
 st.write("hello")  
 st.sidebar.write("Hello") 
+"Anything" 
+st.title("Nothing")
+st.header("Header")
+st.markdown("markdown")
+st.markdown("## markdown") 
+st.error("Error") 
+st.warning("warning") 
+st.info("Info") 
+st.success("success")
+st.exception("Exception")  
