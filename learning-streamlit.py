@@ -33,8 +33,12 @@ else:
 A=st.text_input("Write your name") 
 if A:
   st.write(f"hello {A}")
+def area(x):
+  A=3.14*x**2
+  return A
+
 R=st.number_input("Write the value of radius")
 if R:
-  st.write(R+1)
+  st.write(area(R))
 
 
