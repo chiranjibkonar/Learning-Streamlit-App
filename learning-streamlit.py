@@ -17,7 +17,8 @@ if st.sidebar.button("Press button"):
   st.sidebar.write("you have pressed the button")
 if st.sidebar.checkbox("Checkbox",value="True"):
   st.sidebar.write("you have checked the box")
-if st.sidebar.toggle("Toggle"):
+A= st.sidebar.toggle("Toggle")
+if A:
   st.sidebar.write("on")
 else:
   st.write("off")
