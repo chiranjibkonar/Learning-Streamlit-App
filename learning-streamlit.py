@@ -37,7 +37,7 @@ def area(x):
   A=3.14*x**2
   return A
 
-R=st.number_input("Write the value of radius")
+R=st.number_input("Write the value of radius",value=3)
 if R:
   st.write(area(R))
 
