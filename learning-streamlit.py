@@ -30,7 +30,7 @@ if st.sidebar.toggle("toggle"):
   st.sidebar.write("On")
 else:
   st.sidebar.write("Off") 
-A=st.text_input("Write your name") 
+A=st.text_input("Write your name", value = "anything") 
 if A:
   st.write(f"hello {A}")
 def area(x):
