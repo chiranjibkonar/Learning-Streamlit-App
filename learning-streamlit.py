@@ -8,7 +8,7 @@ st.title("Nothing")
 st.header("Header")
 st.markdown("markdown")
 st.markdown("## markdown") 
-"For Colours"
+st.header("For Colours")
 st.error("Error") 
 st.warning("warning") 
 st.info("Info") 
