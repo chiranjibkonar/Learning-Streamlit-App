@@ -1,6 +1,6 @@
 # IDLE file for Python to be used in streamlit
 # To make a web app for a calculator 
-import streamlit as st  
+import streamlit as st   
 st.write("hello")  
 st.sidebar.write("Hello") 
 "Anything" 
@@ -40,5 +40,5 @@ def area(x):
 R=st.number_input("Write the value of radius",value=3)
 if R:
   st.write(area(R))
-st.red("Red")
+
 
