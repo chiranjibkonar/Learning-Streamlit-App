@@ -46,5 +46,7 @@ st.write(r"$ \frac{\alpha + \beta}{\gamma + \delta} $" )
 col1, col2=st.columns(2)
 with col1:
   st.write("col1") 
+  st.button("1") 
 with col2:
   st.write("col2")
+  st.button("2")
