@@ -42,4 +42,4 @@ R=st.number_input("Write the value of radius",value=3)
 if R:
   st.write(area(R))
 st.latex(r" \alpha + \beta " )
-st.latex(r" \frac{\alpha + \beta}{\gamma + \delta} " )
+st.write(r" \frac{\alpha + \beta}{\gamma + \delta} " )
