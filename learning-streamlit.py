@@ -14,8 +14,9 @@ st.error("Error --red color")
 st.warning("warning --yellow color") 
 st.info("Info --blue color") 
 st.success("success --green color")
-#st.exception("TypeError")  not clear
-if st.sidebar.button("Press button"): 
+#st.exception("TypeError")  not clear 
+st.sidebar.button("Press button")  
+if st.sidebar.button("[Press button]"):    #--name of the button 
   st.sidebar.write("you have pressed the button")
 if st.sidebar.checkbox("Checkbox",value="True"):
   st.sidebar.write("you have checked the box")
