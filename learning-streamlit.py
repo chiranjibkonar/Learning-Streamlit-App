@@ -6,7 +6,7 @@ st.write("Hello")
 st.sidebar.write("Hello") 
 "Anything" 
 st.title("Nothing")
-st.header("Header")
+st.header("Header markdown")
 st.markdown("markdown")
 st.markdown("## markdown") 
 st.header("For Colours")
@@ -51,7 +51,7 @@ with col1:
 with col2:
   st.write("col2")
   st.button("2")
-st.write("Write a text below") 
+st.write("Write any text within triple quote") 
 ''' Bose was born in Calcutta (now Kolkata), the eldest of seven children in a   
  Bengali Kayastha family.[11] He was the only son, with six sisters after him.      
  His ancestral home was in the village Bara Jagulia, in the district of Nadia,      
@@ -62,6 +62,7 @@ st.write("Write a text below")
  of merit. He then joined the intermediate science course at the Presidency College,  
  Calcutta, where his teachers included Jagadish Chandra Bose, Sarada Prasanna Das,    
  and Prafulla Chandra Ray. '''  
- 
+
+
 
 
