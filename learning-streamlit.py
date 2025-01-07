@@ -52,7 +52,8 @@ with col2:
   st.write("col2")
   st.button("2")
 st.write("Write a text below") 
-'''  Bose was born in Calcutta (now Kolkata), the eldest of seven children
+st.markdown("<div style='text-align: right;'>
+  Bose was born in Calcutta (now Kolkata), the eldest of seven children
 in a Bengali Kayastha family.[11] He was the only son, with six sisters after
 him. His ancestral home was in the village Bara Jagulia, in the district of 
 Nadia, in the Bengal Presidency. His schooling began at the age of five, near 
@@ -61,6 +62,7 @@ Indian School. In his final year of school, he was admitted into the Hindu
 School. He passed his entrance examination (matriculation) in 1909 and stood 
 fifth in the order of merit. He then joined the intermediate science course at 
 the Presidency College, Calcutta, where his teachers included Jagadish Chandra 
-Bose, Sarada Prasanna Das, and Prafulla Chandra Ray.'''  
+Bose, Sarada Prasanna Das, and Prafulla Chandra Ray.
 
+</div>", unsafe_allow_html=True) 
 
