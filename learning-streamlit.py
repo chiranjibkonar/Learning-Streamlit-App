@@ -56,5 +56,4 @@ st.markdown("<div style='text-align: left;'> \
 Bose was born in. </div>", \
 unsafe_allow_html=True) 
 
-"" line 1 \
-line 2 ""
+
