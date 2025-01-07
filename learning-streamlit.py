@@ -29,7 +29,7 @@ if st.sidebar.checkbox("Checkbox",value="True"):
 #  st.sidebar.write("off")
 #-------------------------------------------------
 
-if st.sidebar.toggle("toggle"):
+if st.sidebar.toggle("toggle", value=True): # name of the button is toggle
   st.sidebar.write("On")
 else:
   st.sidebar.write("Off") 
