@@ -52,5 +52,7 @@ with col2:
   st.write("col2")
   st.button("2")
 st.write("Write a text below") 
-st.markdown("<div style='text-align: left;'> Bose was born in. </div>", unsafe_allow_html=True) 
+st.markdown("<div style='text-align: left;'> 
+Bose was born in. </div>", 
+unsafe_allow_html=True) 
 
