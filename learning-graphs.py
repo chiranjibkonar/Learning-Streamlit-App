@@ -1,4 +1,6 @@
 # learning graphs
+import matplotlib.pyplot as plt
+
 import numpy as np 
 import streamlit as st 
 x=np.linspace(10,100,10)  # Explanation: Along x axis: 1st value = start value, 2nd value = end value, 3rd value is the number of points 
