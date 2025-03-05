@@ -8,7 +8,7 @@ x=np.linspace(10,100,10)  # Explanation: Along x axis: 1st value = start value, 
 y=[i**2 for i in x] 
 st.write(f"x values are: {x}")   # f means formatted string, 
 st.write(f"yvalues are: {y}")    
-plt.figure()
+fig=plt.figure()
 plt.plot(x,y)
 st.pyplot(fig)
 
